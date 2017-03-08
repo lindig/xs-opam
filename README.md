@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/xapi-project/xs-opam.svg?branch=xs-latest)](https://travis-ci.org/xapi-project/xs-opam)
 
 # Opam Repository for XenServer
 
@@ -9,11 +10,11 @@ remote Opam repository:
   opam repo add xs-opam https://github.com/xapi-project/xs-opam.git
   ```
 
-## This Branch
+## The xs-latest Branch
 
-This branch tracks the HEAD of all repositories in the packages/xs/
-directory such that it always uses the latest release of these
-components.
+This branch tracks the HEAD of the master branch of (almost) all
+repositories in the packages/xs/ directory such that it always uses the
+latest release of these components.
 
 ## Layout of This Repository
 
