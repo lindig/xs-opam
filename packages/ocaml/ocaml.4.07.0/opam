@@ -5,9 +5,9 @@ This package requires a matching implementation of OCaml,
 and polls it to initialise specific variables like `ocaml:native-dynlink`"""
 maintainer: "platform@lists.ocaml.org"
 depends: [
-  "ocaml-base-compiler" {= "4.06.1"} |
-  "ocaml-variants" {>= "4.06.1" & < "4.06.2~"} |
-  "ocaml-system" {= "4.06.1"}
+  "ocaml-base-compiler" {= "4.07.0"} |
+  "ocaml-variants" {>= "4.07.0" & < "4.07.1~"} |
+  "ocaml-system" {= "4.07.0"}
 ]
 setenv: [
   [CAML_LD_LIBRARY_PATH = "%{_:stubsdir}%"]

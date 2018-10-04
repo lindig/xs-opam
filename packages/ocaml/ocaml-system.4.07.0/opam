@@ -8,7 +8,7 @@ depends: [
   "base-bigarray" {post}
 ]
 conflict-class: "ocaml-core-compiler"
-available: sys-ocaml-version = "4.06.1"
+available: sys-ocaml-version = "4.07.0"
 flags: compiler
 build: ["ocaml" "gen_ocaml_config.ml"]
 substs: "gen_ocaml_config.ml"
